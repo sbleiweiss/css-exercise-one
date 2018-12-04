@@ -1,4 +1,5 @@
 body
+{
   font-size: 14px;
 }
 
@@ -8,6 +9,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 
 section {
@@ -20,17 +22,31 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example h3 {
   padding-top: 30px;
-  text-align center
-}
-
-h3 {
+  text-align: center;
   font-size: 1.3em;
 }
 
 .element {
+  /* all elements have the following style */
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
+
+.element1 {
+  /* display yellow color as background for element1 */
+  background-color: yellow;
+}
+
+.element2 {
+  /* display lightblue color as background for element2 */
+  background-color: lightblue;
+}
+
+.element3 {
+  /* display pink color as background for element3 */
+  background-color: pink;
+}
